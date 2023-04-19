@@ -6,15 +6,19 @@ def home(request):
     #print("request:::", request.META)
     #print("request:::", request.HEADERS)
     context = dict()
-    return render(request, 'page/homepage.html', context)
+    return render(request, 'page/index.html', context)
 
 def about_us(request):
     context = dict()
-    return render(request, "page/about_us.html", context)
+    return render(request, "page/about.html", context)
 
 def contact(request):
     context = dict()
     return render(request, "page/contact.html", context)
+
+def vision(request):
+    context = dict()
+    return render(request, "page/vision.html", context)
 
 # def aghamir(request):
 #     context = dict()

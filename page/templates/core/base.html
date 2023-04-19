@@ -9,13 +9,13 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body">
 
     <!-- NAVBAR -->
 
-    <nav data-bs-theme="dark" class="navbar navbar-expand-lg bg-primary">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Django</a>
+            <a class="navbar-brand" href="#">www.turalhuseynli.com</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,59 +38,11 @@
     </nav>
 
     <!-- NAVBAR END -->
+    {% block content %}
 
+{% endblock content %}
 
-
-    <!-- CONTENCT START -->
-    <div class="container-fluid mb-4">
-        <div class="row">
-            <div class="col-sm-12 px-0 ">
-                <img src="https://picsum.photos/id/41/1200/450" alt="" class="w-100">
-            </div>
-        </div>
-        <div class="row bg-primary p-4 ">
-            <div class="col-sm-8 offset-sm-2">
-                <div class="h-100 p-5 bg-light border rounded-3">
-                    <h2 class="text-center display-1">About Us</h2>
-                    <p class="text-center">Or, keep it light and add a border for some added definition to the
-                        boundaries of your content. Be sure to look under the hood at the source HTML here as we've
-                        adjusted the alignment and sizing of both column's content for equal-height.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10 offset-sm-1">
-                <h2>Vision</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repudiandae nobis repellat culpa blanditiis, architecto, earum, atque saepe excepturi quidem quasi eius suscipit pariatur! Nostrum architecto accusamus ipsum necessitatibus tempore!</p>
-                <p>Itaque officiis magni suscipit quos nulla dolor, minima minus placeat voluptatibus voluptate eius aperiam. Dignissimos, sint consequatur autem impedit pariatur labore rem velit inventore nobis, quo magni eligendi iure libero.</p>
-                <p>Nobis libero nisi suscipit rerum dignissimos iusto sequi, facere maiores sapiente voluptatem asperiores deserunt, autem nesciunt expedita tempora. Repellat perferendis in ut dolorem doloribus, veritatis eligendi sint officiis atque. Modi.</p>
-                <hr>
-                <h2>Mission</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iure voluptatibus quis illum cupiditate nobis aliquam dolorum cum laboriosam, possimus quibusdam cumque est architecto ut placeat exercitationem at itaque accusantium!</p>
-              <p>Quod nemo beatae facilis consectetur corrupti voluptate assumenda, possimus at accusamus magni maiores voluptatum illum tempore soluta dolorem ratione repellendus esse, odit quia quas sequi sunt atque? Facilis, explicabo obcaecati!</p>
-              <p>Earum commodi pariatur natus tenetur tempora eum? Cum, repellat molestiae. Esse dolores nam deserunt repellendus optio eveniet quos voluptate quis officiis aperiam magnam distinctio aspernatur, qui asperiores, consequatur quas animi.</p>
-              <p>Sit obcaecati culpa veniam molestias minima veritatis maiores deleniti natus ducimus dolores maxime perferendis amet sunt, numquam dolorum pariatur iusto. Aperiam odio error nisi laudantium ducimus accusamus quod, velit natus.</p>
-            <ul>
-                <li>Lorem, ipsum.</li>
-                <li>Libero, beatae.</li>
-                <li>Esse, illum?</li>
-                <li>Aliquid, cupiditate?</li>
-            </ul>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- ========== Start Projects ========== -->
-
-<div class="container">
+    
     <div class="row my-4 mb-7">
         <div class="col-sm-12">
             <h2>Projects</h2>
@@ -116,14 +68,12 @@
 
     </div>
     </div>
-</div>
     <!-- ========== End Projects ========== -->
    
     <!-- PRODUCTS-->
 
     <!-- PRODUCTS END-->
 
-    <!-- FOOTER -->
     <!-- FOOTER -->
     
     <div class="bg-dark text-light mt-5">
@@ -200,6 +150,7 @@
     </div>
     </div>
     <!-- FOOTER END-->
+    <!-- FOOTER END-->
 
 
 
@@ -219,6 +170,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-</body>
+    </body>
 
 </html>
