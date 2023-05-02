@@ -1,7 +1,7 @@
 
 {% extends 'core/base.html' %}
-{% block content %}
 
+{% block container-fluid %}
 
     <!-- CONTENCT START -->
     <div class="container-fluid mb-4">
@@ -22,10 +22,10 @@
         </div>
     </div>
 
+{% endblock container-fluid %}
 
-
-
-    <div class="container">
+    {% block container %}
+    
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
                 <h2>Vision</h2>
@@ -46,6 +46,6 @@
             </ul>
             </div>
         </div>
-    </div>
+    
 
-    {% endblock content %}
+    {% endblock container %}

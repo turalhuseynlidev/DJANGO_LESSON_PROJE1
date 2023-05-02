@@ -1,32 +1,31 @@
 {% extends 'core/base.html' %}
 
-{% block content %}
-
-
-
-    <!-- CONTENCT START -->
-    <div class="container-fluid mb-4">
-        <div class="row">
-            <div class="col-sm-12 px-0 ">
-                <img src="https://picsum.photos/id/49/1200/450" alt="" class="w-100">
-            </div>
+{% block container-fluid %}
+<div class="container-fluid mb-4">
+    <div class="row">
+        <div class="col-sm-12 px-0 ">
+            <img src="https://picsum.photos/id/49/1200/450" alt="" class="w-100">
         </div>
-        <div class="row bg-dark p-4 ">
-            <div class="col-sm-8 offset-sm-2">
-                <div class="h-100 p-5 bg-light border rounded-3">
-                    <h2 class="text-center display-1">Contact with Us</h2>
-                    <p class="text-center">Or, keep it light and add a border for some added definition to the
-                        boundaries of your content. Be sure to look under the hood at the source HTML here as we've
-                        adjusted the alignment and sizing of both column's content for equal-height.</p>
-                </div>
+    </div>
+    <div class="row bg-dark p-4 ">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="h-100 p-5 bg-light border rounded-3">
+                <h2 class="text-center display-1">Contact with Us</h2>
+                <p class="text-center">Or, keep it light and add a border for some added definition to the
+                    boundaries of your content. Be sure to look under the hood at the source HTML here as we've
+                    adjusted the alignment and sizing of both column's content for equal-height.</p>
             </div>
         </div>
     </div>
+</div>
+{% endblock container-fluid %}
 
+{% block container %}
+
+    <!-- CONTENT START -->
+ 
                                                         <!--FORM-->
 
-
-    <div class="container">
         <div class="row mb-5">
             <div class="col-sm-10 offset-sm-1">
                 <h2 class="pb-2">Address</h2>
@@ -70,9 +69,9 @@
                 </ul>
             </div>
         </div>
-    </div>
+    
 
 
-{% endblock %}
+{% endblock container %}
     <!-- ========== Start Projects ========== -->
 
