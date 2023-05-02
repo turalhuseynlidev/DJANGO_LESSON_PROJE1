@@ -9,15 +9,24 @@ def home(request):
     return render(request, 'page/index.html', context)
 
 def about_us(request):
-    context = dict()
+    title = 'About Us'
+    context = dict(
+        page_title=title,
+        )
     return render(request, "page/about.html", context)
 
 def contact(request):
-    context = dict()
+    title = 'Contact with Us'
+    context = dict(
+        page_title=title,
+        )
     return render(request, "page/contact.html", context)
 
 def vision(request):
-    context = dict()
+    title = 'Our Vision'
+    context = dict(
+        page_title=title,
+        )
     return render(request, "page/vision.html", context)
 
 # def aghamir(request):
